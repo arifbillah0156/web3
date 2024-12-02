@@ -51,7 +51,7 @@ export default function HomeSearchForm() {
             name="option1"
             value={selectOption1}
             onChange={handleChange1}
-            className="w-full border border-purple-300 rounded-lg shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 px-2 py-4 text-xl"
+            className="w-full border border-purple-300 rounded-lg shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 px-2 py-4 text-xl text-black"
           >
             <option value="allBiodata">সকল</option>
             <option value="boyBiodata">পাত্রের বায়োডাটা</option>
