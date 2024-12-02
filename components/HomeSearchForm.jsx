@@ -109,10 +109,10 @@ export default function HomeSearchForm() {
           </select>
         </div>
 
-        <div className="mt-4 flex justify-center ">
+        <div className="flex justify-center ">
           <button
             type="submit"
-            className="px-16 py-3 bg-gradient-to-r from-purple-500 via-pink-500 to-rose-500 text-white text-2xl rounded-lg shadow-lg hover:ring-2 hover:bg-green-600 hover:px-20 hover:underline duration-100"
+            className="mt-6 px-16 py-3 bg-gradient-to-r from-purple-500 via-pink-500 to-rose-500 text-white text-2xl rounded-lg shadow-lg hover:ring-2 hover:bg-green-600 hover:px-20 hover:underline duration-100"
           >
             খুজুন
           </button>
