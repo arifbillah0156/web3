@@ -29,7 +29,7 @@ export default function HomeSearchForm() {
   };
 
   return (
-    <div className="mt-14">
+    <div className="mt-14 ">
       <form
         onSubmit={handleSubmit}
         className="max-w-md mx-auto p-6 bg-white shadow-md rounded-lg space-y-4"
@@ -51,7 +51,7 @@ export default function HomeSearchForm() {
             name="option1"
             value={selectOption1}
             onChange={handleChange1}
-            className="w-full border border-purple-300 rounded-lg shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 px-2 py-4 text-xl text-black"
+            className="w-full border border-purple-300 rounded-lg shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 px-2 py-4 text-xl bg-white text-black"
           >
             <option value="allBiodata">সকল</option>
             <option value="boyBiodata">পাত্রের বায়োডাটা</option>
@@ -73,7 +73,7 @@ export default function HomeSearchForm() {
             name="option2"
             value={selectOption2}
             onChange={handleChange2}
-            className="w-full border border-purple-300 rounded-lg shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 px-2 py-4 text-xl"
+            className="w-full border border-purple-300 rounded-lg shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 px-2 py-4 text-xl  bg-white text-black"
           >
             <option value="allStatus">সকল</option>
             <option value="unmarried">অবিবাহিত</option>
@@ -95,7 +95,7 @@ export default function HomeSearchForm() {
             name="option3"
             value={selectOption3}
             onChange={handleChange3}
-            className="w-full border border-purple-300 rounded-lg shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 px-2 py-4 text-xl"
+            className="w-full border border-purple-300 rounded-lg shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 px-2 py-4 text-xl  bg-white text-black"
           >
             <option value="allDivision">সকল</option>
             <option value="Dhaka">ঢাকা বিভাগ</option>
